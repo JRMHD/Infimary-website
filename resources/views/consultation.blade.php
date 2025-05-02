@@ -71,6 +71,7 @@
 </head>
 
 <body>
+    @include('header')
     <div class="form-container">
         <a href="{{ url('welcome') }}" class="btn btn-secondary mb-3">Go Home</a>
         <h2 class="form-title">St James Infirmary <br> Consultation Request</h2>
